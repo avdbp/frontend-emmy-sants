@@ -1,6 +1,6 @@
 # Emmy Sants E-Commerce Website
 
-This project has been developed by Ana Gabriela Medina and Alejandro van den Bussche, two passionate web developers with a deep commitment to excellence. Our project represents a fully functional e-commerce platform for the "Emmy Sants" florist, located in the beautiful city of Barcelona. It's a MERN Stack application, check the backend repository [here](https://github.com/Anagamedina/backend-emmy-sants).
+This project has been developed by Ana Gabriela Medina and Alejandro van den Bussche, two passionate web developers with a deep commitment to excellence. Our project represents a fully functional e-commerce platform for the "Emmy Sants" florist, located in the beautiful city of Barcelona. It's a MERN Stack application, check the backend repository [here](https://github.com/avdbp/backend-emmy-sants).
 
 ## About
 
@@ -20,7 +20,7 @@ We've implemented a robust and user-friendly control panel for the florist owner
 
 - **Secure Authentication**: We provide a secure authentication system, allowing the owner to log into her control panel privately and securely.
 
-![Project Image](insert-image-url-here)
+![Project Image]("./../src/img/logoemmy.png")
 
 ## Deployment
 
