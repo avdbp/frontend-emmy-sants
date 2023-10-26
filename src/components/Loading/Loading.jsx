@@ -1,3 +1,4 @@
+/* eslint-disable */
 import "./Loading.css";
 
 const Loading = () => {

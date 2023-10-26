@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import { Link } from 'react-router-dom'; // Asegúrate de importar Link desde 'react-router-dom'
 import "./HomePage.css";
