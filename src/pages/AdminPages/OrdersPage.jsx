@@ -37,7 +37,7 @@ function OrdersPage() {
             <Card style={{ width: '100%' }}>
               <Card.Body className='cardBodyOrder'>
                 <Card.Title>
-                  <h4>Comprador: {order.usuario ? `${order.usuario.firstName} ${order.usuario.lastName}` : "Usuario no disponible"}</h4>
+                  <h4>Comprador:<br/> {order.usuario ? `${order.usuario.firstName} ${order.usuario.lastName}` : "Usuario no disponible"}</h4>
                   <h6>Número de Orden: {order._id ? order._id : "ID no disponible"}</h6>
                 </Card.Title>
                 <Card.Text>
