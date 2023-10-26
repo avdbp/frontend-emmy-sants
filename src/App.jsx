@@ -17,7 +17,6 @@ import Cart from "./pages/OrderPage/Cart";
 import ProfilePage from "./pages/ProfilePage/ProfilePage";
 import Success from "./pages/OrderPage/Success";
 
-// import IsPrivate from "./components/IsPrivate/IsPrivate"
 
 function App() {
   return (
