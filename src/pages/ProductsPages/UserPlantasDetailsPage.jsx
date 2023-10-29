@@ -71,7 +71,7 @@ function UserPlantasDetailsPage() {
   };
 
   const plantInfoInApi = (productName) => {
-    const backendUrl = 'http://localhost:5005';
+    const backendUrl = process.env.REACT_APP_SERVER_URL;
 
     const prompt = `Dame sobre la siguiente planta: ${selectedProduct.nombre}. Dame la siguiente información: Nombre común. Punto. Nombre cientifico. Características, listado de cuidados que debe tener, cantidad de agua que debe darsele en determinado periodo de tiempo, si es de sol o sombra.`;
 
