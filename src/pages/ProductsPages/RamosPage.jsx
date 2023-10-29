@@ -11,7 +11,7 @@ function RamosPage() {
 
   useEffect(() => {
     const axiosProducts = () => {
-      const backendUrl = 'http://localhost:5005';
+      const backendUrl = process.env.REACT_APP_SERVER_URL;
 
       axios
         .get(`${backendUrl}/api/products`)

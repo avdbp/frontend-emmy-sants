@@ -46,7 +46,6 @@ function Cart() {
   }
 
   async function createPaymentSession() {
-    // const backendUrl = process.env.REACT_APP_SERVER_URL || 'http://localhost:5005';
     const backendUrl = process.env.REACT_APP_SERVER_URL;
 
     try {

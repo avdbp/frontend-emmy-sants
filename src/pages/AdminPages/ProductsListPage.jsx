@@ -21,7 +21,7 @@ function ProductsListPage() {
   }
 
   const axiosProducts = () => {
-    const backendUrl =process.env.REACT_APP_SERVER_URL || 'http://localhost:5005';
+    const backendUrl =process.env.REACT_APP_SERVER_URL;
 
     authService.api
       .get(`${backendUrl}/api/products`)
